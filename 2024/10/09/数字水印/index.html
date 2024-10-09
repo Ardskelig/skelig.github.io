@@ -19,24 +19,43 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Skelig&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="将具有AI特征信息的矩阵加密至图片整体过程将具有AI特征信息的矩阵加密至图片总共包含：矩阵信息处理、rsa加密、水印信息嵌入三个步骤，提取执行逆过程即可，具体图示如下：  矩阵信息的处理提取出的AI特征信息的矩阵非常大，如果直接嵌入到图片中会导致水印信息过长，无法全部嵌入，因此我们采用了…. RSA加密1. 概述本项目实现了使用 RSA 算法对矩阵进行加密和解密的功能。矩阵首先被转换为字符串，然后">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数字水印">
+<meta property="og:url" content="http://example.com/2024/10/09/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/index.html">
 <meta property="og:site_name" content="Skelig&#39;s Blog">
+<meta property="og:description" content="将具有AI特征信息的矩阵加密至图片整体过程将具有AI特征信息的矩阵加密至图片总共包含：矩阵信息处理、rsa加密、水印信息嵌入三个步骤，提取执行逆过程即可，具体图示如下：  矩阵信息的处理提取出的AI特征信息的矩阵非常大，如果直接嵌入到图片中会导致水印信息过长，无法全部嵌入，因此我们采用了…. RSA加密1. 概述本项目实现了使用 RSA 算法对矩阵进行加密和解密的功能。矩阵首先被转换为字符串，然后">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727006551422.png?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482041033.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727004597809.png?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482077408.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727004614775.png?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482088170.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727006317852.png?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482102429.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/lena2.bmp?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482114577.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/wm.bmp?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482118726.png">
+<meta property="og:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727004954185.png?lastModify=1728481969">
+<meta property="og:image" content="http://example.com/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482132067.png">
+<meta property="article:published_time" content="2024-10-09T13:52:44.000Z">
+<meta property="article:modified_time" content="2024-10-09T13:55:40.726Z">
 <meta property="article:author" content="查">
 <meta property="article:tag" content="code,python,mechine learning">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="file:///F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727006551422.png?lastModify=1728481969">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/10/09/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2024/10/09/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/","path":"2024/10/09/数字水印/","title":"数字水印"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Skelig's Blog</title>
+<title>数字水印 | Skelig's Blog</title>
   
 
 
@@ -69,7 +88,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Skelig's Blog</h1>
+      <p class="site-title">Skelig's Blog</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">this is a self blog for sharing experience of coding</p>
@@ -96,7 +115,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -109,6 +128,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%85%B7%E6%9C%89AI%E7%89%B9%E5%BE%81%E4%BF%A1%E6%81%AF%E7%9A%84%E7%9F%A9%E9%98%B5%E5%8A%A0%E5%AF%86%E8%87%B3%E5%9B%BE%E7%89%87"><span class="nav-number">1.</span> <span class="nav-text">将具有AI特征信息的矩阵加密至图片</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E8%BF%87%E7%A8%8B"><span class="nav-number">1.1.</span> <span class="nav-text">整体过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5%E4%BF%A1%E6%81%AF%E7%9A%84%E5%A4%84%E7%90%86"><span class="nav-number">1.2.</span> <span class="nav-text">矩阵信息的处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RSA%E5%8A%A0%E5%AF%86"><span class="nav-number">1.3.</span> <span class="nav-text">RSA加密</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%A6%82%E8%BF%B0"><span class="nav-number">1.3.1.</span> <span class="nav-text">1. 概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B"><span class="nav-number">1.3.2.</span> <span class="nav-text">2. 加密流程</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%EF%BC%9AencryptMatrix-RSA-matrix"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">函数：encryptMatrix_RSA(matrix)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E8%A7%A3%E5%AF%86%E6%B5%81%E7%A8%8B"><span class="nav-number">1.3.3.</span> <span class="nav-text">3. 解密流程</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%EF%BC%9AdecryptMatrix-RSA-encryptedString"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">函数：decryptMatrix_RSA(encryptedString)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E"><span class="nav-number">1.3.4.</span> <span class="nav-text">4. 核心算法说明</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#4-1-%E5%BF%AB%E9%80%9F%E6%A8%A1%E5%B9%82%E7%AE%97%E6%B3%95-fastExpMod"><span class="nav-number">1.3.4.1.</span> <span class="nav-text">4.1 快速模幂算法 (fastExpMod)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-2-%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90-createKeys"><span class="nav-number">1.3.4.2.</span> <span class="nav-text">4.2 密钥生成 (createKeys)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E5%AF%86%E9%92%A5%E5%AD%98%E5%82%A8%E4%B8%8E%E8%AF%BB%E5%8F%96"><span class="nav-number">1.3.5.</span> <span class="nav-text">5. 密钥存储与读取</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#5-1-%E5%AD%98%E5%82%A8%E5%AF%86%E9%92%A5-storeKeys"><span class="nav-number">1.3.5.1.</span> <span class="nav-text">5.1 存储密钥 (storeKeys)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-2-%E8%AF%BB%E5%8F%96%E7%A7%81%E9%92%A5-loadPrivateKey"><span class="nav-number">1.3.5.2.</span> <span class="nav-text">5.2 读取私钥 (loadPrivateKey)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84"><span class="nav-number">1.3.6.</span> <span class="nav-text">6. 文件结构</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E4%BA%8EDCT%E5%8F%98%E6%8D%A2%E7%9A%84%E6%B0%B4%E5%8D%B0%E4%BF%A1%E6%81%AF%E7%9A%84%E5%B5%8C%E5%85%A5"><span class="nav-number">1.4.</span> <span class="nav-text">基于DCT变换的水印信息的嵌入</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E5%9B%BE%E7%89%87%E4%BF%A1%E6%81%AF%E7%9A%84DCT%E5%8F%98%E6%8D%A2"><span class="nav-number">1.4.1.</span> <span class="nav-text">1. 图片信息的DCT变换</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%85%B7%E4%BD%93%E5%B5%8C%E5%85%A5%E6%80%9D%E8%B7%AF"><span class="nav-number">1.4.2.</span> <span class="nav-text">2. 具体嵌入思路</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%B5%8C%E5%85%A5%E5%8F%8A%E6%8F%90%E5%8F%96%E7%BB%93%E6%9E%9C"><span class="nav-number">1.4.3.</span> <span class="nav-text">3. 嵌入及提取结果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-number">1.4.4.</span> <span class="nav-text">4. 参考文献</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -140,16 +160,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/10/09/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -163,13 +184,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Skelig's Blog">
+      <meta itemprop="name" content="数字水印 | Skelig's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/10/09/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/" class="post-title-link" itemprop="url">数字水印</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          数字水印
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -192,8 +213,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="将具有AI特征信息的矩阵加密至图片"><a href="#将具有AI特征信息的矩阵加密至图片" class="headerlink" title="将具有AI特征信息的矩阵加密至图片"></a>将具有AI特征信息的矩阵加密至图片</h2><h3 id="整体过程"><a href="#整体过程" class="headerlink" title="整体过程"></a>整体过程</h3><p>将具有AI特征信息的矩阵加密至图片总共包含：矩阵信息处理、rsa加密、水印信息嵌入三个步骤，提取执行逆过程即可，具体图示如下：</p>
+    <div class="post-body" itemprop="articleBody"><h2 id="将具有AI特征信息的矩阵加密至图片"><a href="#将具有AI特征信息的矩阵加密至图片" class="headerlink" title="将具有AI特征信息的矩阵加密至图片"></a>将具有AI特征信息的矩阵加密至图片</h2><h3 id="整体过程"><a href="#整体过程" class="headerlink" title="整体过程"></a>整体过程</h3><p>将具有AI特征信息的矩阵加密至图片总共包含：矩阵信息处理、rsa加密、水印信息嵌入三个步骤，提取执行逆过程即可，具体图示如下：</p>
 <p><img src="file://F:/%E5%A4%A7%E5%88%9B/%E6%8A%A5%E5%91%8A/assets/1727006551422.png?lastModify=1728481969"><img src="/image/%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/1728482041033.png" alt="1728482041033"></p>
 <h3 id="矩阵信息的处理"><a href="#矩阵信息的处理" class="headerlink" title="矩阵信息的处理"></a>矩阵信息的处理</h3><p>提取出的AI特征信息的矩阵非常大，如果直接嵌入到图片中会导致水印信息过长，无法全部嵌入，因此我们采用了….</p>
 <h3 id="RSA加密"><a href="#RSA加密" class="headerlink" title="RSA加密"></a>RSA加密</h3><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. <strong>概述</strong></h4><p>本项目实现了使用 RSA 算法对矩阵进行加密和解密的功能。矩阵首先被转换为字符串，然后通过 RSA 算法加密。加密后的内容以十六进制形式输出，并存储在字符串中。解密时，程序从存储的密钥中读取私钥，对加密的字符串进行解密并还原为原始的矩阵字符串。</p>
@@ -243,7 +263,6 @@
 <p>[3]OLKKONEN Juuso T,OLKKONEN Hannu.Discrete Lattice Wavelet Transform[J].IEEE Transactions on Circuits and Systems Ii-Express Briefs,2007,54(1):71-75.</p>
 <p>[4] LASKA Brady,BOLIC Miodrag,GOUBRAN Rafik.Discrete Cosine Transform Particle Filter Speech Enhancement[J].Speech Communication,2010,52(9):762-775.</p>
 
-      
     </div>
 
     
@@ -251,81 +270,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/10/09/firstblog/" rel="prev" title="测试部分">
+                  <i class="fa fa-angle-left"></i> 测试部分
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/10/09/firstblog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://yanzushengkai.oss-cn-beijing.aliyuncs.com/AllenIverson.jpg">
-      <meta itemprop="name" content="查">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Skelig's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Skelig's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/10/09/firstblog/" class="post-title-link" itemprop="url">测试部分</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2024-10-09 20:13:00 / Modified: 21:55:45" itemprop="dateCreated datePublished" datetime="2024-10-09T20:13:00+08:00">2024-10-09</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="This-is-my-first-blog-just-for-testing-the-website"><a href="#This-is-my-first-blog-just-for-testing-the-website" class="headerlink" title="This is my first blog just for testing the website"></a>This is my first blog just for testing the website</h3><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p><strong>粗体标记</strong><br><em>斜体标记</em></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
